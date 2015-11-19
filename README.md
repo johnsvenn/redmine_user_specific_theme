@@ -8,6 +8,7 @@ This plugin allows Redmine users to select themes in their account settings. The
 ## Compatibility
 
 This plugin version is compatible only with *Redmine 3.x* and later.  
+  
 <sup>**Note 1:** Tested just on *Redmine 3.1*  
 **Note 2:** This is a fork from [Undev's one](https://github.com/Undev/redmine_user_specific_theme)  </sup>
 
