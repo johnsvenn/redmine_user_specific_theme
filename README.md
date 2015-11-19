@@ -7,7 +7,9 @@ This plugin allows Redmine users to select themes in their account settings. The
 
 ## Compatibility
 
-This plugin version is compatible only with Redmine 2.1.x and later.
+This plugin version is compatible only with Redmine 3.x and later.
+Note 1: Tested just on Redmine 3.1
+Note 2: This is a fork from [Udev's one](https://github.com/Undev/redmine_user_specific_theme)
 
 ## Installation
 
@@ -22,11 +24,15 @@ This plugin version is compatible only with Redmine 2.1.x and later.
  
       Copy the plugin from GitHub using the following command:
 
-            git clone https://github.com/Undev/redmine_user_specific_theme.git plugins/redmine_user_specific_theme
+            git clone https://github.com/seyedmmousavi/redmine_user_specific_theme.git
 
 2. Install the required gems using the command:  
 
-        bundle install  
+        bundle install
+
+   or for production environment:
+        
+        bundle install --without test development
 
     * In case of bundle install errors, remove the Gemfile.lock file, update the local package index and install the required dependencies. Then execute the `bundle install` command again:  
 
@@ -46,7 +52,7 @@ The plugin adds the **Theme** setting to the user account. If the **Theme** sett
 
 ## Maintainers
 
-Danil Tashkinov, [github.com/nodecarter](https://github.com/nodecarter)
+S.M.Mousavi, [github.com/seyedmmousavi](https://github.com/seyedmmousavi)
 
 ## License
 
